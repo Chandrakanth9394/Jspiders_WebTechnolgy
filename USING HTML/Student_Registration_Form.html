@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body bgcolor="white">
+    <form action="">
+        <h1 align = "center"><u>STUDENT REGISTRATION FORM</u></h1>
+       <table align="center" border="" >
+        <tr>
+            <td bgcolor="yellow"><label for="Name">FIRST NAME :</label>
+                <input type="text" id="Name">(max 30 characters a-z and A-Z)
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow"><label for="last">LAST NAME :</label>
+                <input type="text" id="last">(max 30 characters a-z and A-Z)
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow"><label for="DOB">DATE OF BIRTH :</label>
+                <input type="date" id="DOB">
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow">
+                <label for="email">EMAIL ID :</label>
+                <input type="email" id="email">
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow">
+                <label for="phoneno">MOBILE NUMBER:</label>
+                <input type="number" id="phoneno" minlength="10" maxlength="10">(10 digit number)
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow">
+                <label for="Gender">Gender:</label>
+                <input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow">
+                <label for="Address">Address:</label>
+                <textarea cols="30" rows="5"></textarea>
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow"><label for="city">CITY :</label>
+                <input type="text" id="city">(max 30 characters a-z and A-Z)
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow">
+                <label for="pin">PIN CODE: </label>
+                <input type="number" minlength="6" maxlength="6">
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow"><label for="state">STATE:</label>
+                <input type="text" id="state">(max 30 characters a-z and A-Z)
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow">
+                <label for="country">COUNTRY</label>
+                <select>
+                    <option value="India">India</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Canada">Canada</option>
+                    <option value="England">England</option> 
+                </select>
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow">
+                <label for="hob">HOBBIES: </label>
+                <input type="checkbox" name="" id="">Drawing
+                <input type="checkbox" name="" id="">Singing
+                <input type="checkbox" name="" id="">Dancing
+                <input type="checkbox" name="" id="">Sketching
+                <input type="checkbox" name="" id="">Others
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow">
+                <label for="Qualfication">Qualfication:</label>
+                <br><br>
+                <table border="" cellspacing="" cellpadding="3">
+                    <tr>
+                        <td>Sl.No</td>
+                        <td>Examination</td>
+                        <td>Board</td>
+                        <td>Percentage</td>
+                        <td>Year of Passing</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Class X</td>
+                        <td><input type="text" maxlength="10"></td>
+                        <td><input type="text" step="0.01" min="0" max="100"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Class XII</td>
+                        <td><input type="text" maxlength="10"></td>
+                        <td><input type="text" step="0.01" min="0" max="100"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Graduation</td>
+                        <td><input type="text" maxlength="10"></td>
+                        <td><input type="text" step="0.01" min="0" max="100"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Masters</td>
+                        <td><input type="text" maxlength="10"></td>
+                        <td><input type="text" step="0.01" min="0" max="100"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    </table>
+                    <br>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow">
+                <label for="course">COURSES APPLIED FOR</label>
+                <input type="radio" name="course" id="">BCA
+                <input type="radio" name="course" id="">B.Com
+                <input type="radio" name="course" id="">B.Sc
+                <input type="radio" name="course" id="">B.A
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" bgcolor="yellow"><input type="submit" name="" id="" value="Submit">
+                <input type="submit" value="Reset"></td>
+        </tr>
+       </table>
+    </form>
+</body>
+</html>
